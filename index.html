@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aloha Shop</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+  </head>
+  <body>
+    <header class="container">
+       <div class="logo"><img src="images/aloha-logo.svg" alt="Aloha Logo" /></div>
+       <div class="cart"><img src="images/cart-icon.svg" alt="Cart" /></div>
+       <nav class="topnav">
+         <ul>
+           <li><a href="#about">About</a></li>
+           <li><a href="#shop">Shop</a></li>
+           <li><a href="#featured">Featured</a></li>
+           <li><a href="#updates">Updates</a></li>
+         </ul>
+       </nav>
+    </header>
+    <section class="banner">
+      <div class="hero-text">
+        <p class="newcollection">New Collection</p>
+        <h1>Spring/Summer 2016</h1>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <h2>Hand-Crafted<span class="bold">&nbspStyles</span></h2>
+      <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+    </section>
+
+    <section class="category container" id="shop">
+      <div class="mens">Men's</div>
+      <div class="trends">Trends</div>
+      <div class="glasses">Glasses</div>
+      <div class="sales">Sales</div>
+      <div class="bags">Bags</div>
+      <div class="womens">Women's</div>
+    </section>
+
+    <section class="product" id="featured">
+     <h2>Most-Loved<span class="bold">&nbspProducts</span></h2>
+     <div class="carousel" data-flickity>
+      <div class="carousel-cell">
+        <p><img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress" width="300" height="300"/></p>
+        <p>Dress</p>
+        <h3>stretch knit dress</h3>
+        <p>$169.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt" width="300" height="300"/></p>
+        <p>Shirt</p>
+        <h3>cotton blue shirt</h3>
+        <p>$89.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress" width="300" height="300"/></p>
+        <p>Dress</p>
+        <h3>checked stretch dress</h3>
+        <p>$129.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack" width="300" height="300"/></p>
+        <p>Bag</p>
+        <h3>blue hipster backpack</h3>
+        <p>$69.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/demin-overall-shorts.jpg" alt="blue-hipster-backpack" width="300" height="300"/></p>
+        <p>Demin</p>
+        <h3>demin overall shorts</h3>
+        <p>$69.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/pink-dotted-dress.jpg" alt="blue-hipster-backpack" width="300" height="300"/></p>
+        <p>Dress</p>
+        <h3 >pink dotted dress</h3>
+        <p>$69.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/blue-silk-dress.jpg" alt="blue-hipster-backpack" width="300" height="300"/></p>
+        <p>Dress</p>
+        <h3>blue silk dress</h3>
+        <p>$69.00</p>
+      </div>
+      <div class="carousel-cell">
+        <p><img src="images/cotton-yellow-tshirt.jpg" alt="blue-hipster-backpack" width="300" height="300"/></p>
+        <p>BAG</p>
+        <h3>cotton yellow tshirt</h3>
+        <p>$69.00</p>
+      </div>
+    </div>
+    </section>
+    <section class="signup" id="updates">
+      <div>
+      <h2>Sign-up for<span class="bold">&nbspUpdates</span></h2>
+      <p class="signuptext">
+        Stay updated on our latest product releases, be first to find out
+        about upcoming sales, and get free style tips from our blog.
+      <br/>Unsubscribe at any time.
+      </p>
+      <form class="subscribe">
+        <input type="email" id="emailaddress" name="Your Email" placeholder="Your Email" required>
+        <button type="submit" name="sub" value="Subsribe" >Subscribe</button>
+      </form>
+    </div>
+    </section>
+    <footer class="container">
+      <div class="info">
+      <p>&copy;2016 Aloha Apparel Co.<br/>Powered by HTML and CSS.</p>
+      <p class="number">604-604-6040. <a href="info@alohaapparel.com">info@alohaapparel.com</a><p>
+      <p class="address">1490 W Broadway<br/>Vancouver, BC, Canada</p>
+      </div>
+      <div class="item">
+        <ul class="sociallist">
+          <li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li>
+          <li><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</li>
+          <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+          <li><i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest</li>
+          <li><i class="fa fa-google-plus" aria-hidden="true"></i> Google</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.js"   integrity="sha256-L6ppAjL6jgtRmfiuigeEE5AwNI2pH/X9IBbPyanJeZw="   crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="smoothscroll.js"></script>
+    <script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
